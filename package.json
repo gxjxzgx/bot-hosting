@@ -1,16 +1,15 @@
 {
-  "name": "bot-hosting-x-node",
+  "name": "nodejs",
   "version": "1.0.0",
-  "private": true,
-  "description": "Node.js 版本（由 Python 版移植），功能对等",
+  "description": "index",
   "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
-    "node": ">=18.15.0"
+    "node": ">=18"
   },
-  "dependencies": {
-    "ws": "^8.18.0"
-  }
+  "license": "MIT"
 }
